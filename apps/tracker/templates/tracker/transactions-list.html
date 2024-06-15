@@ -1,0 +1,15 @@
+{% extends "tracker/base.html" %}
+
+
+{% block head_title %}
+    Transaction List
+{% endblock head_title %}
+
+{% block content %}
+
+<div class="relative overflow-x-auto text-white" id="transaction-block">
+
+    {% include "tracker/partials/transactions-container.html" %}
+</div>
+
+{% endblock content %}
